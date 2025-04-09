@@ -8,7 +8,7 @@ Este projeto é uma interface gráfica para simular um sistema bancário, desenv
 
 > Exemplo de interface da tela de login:
 
-![Tela de Login](images/login.png)
+![Tela de Login](exemplos/exemplo_login.png)
 
 ---
 
