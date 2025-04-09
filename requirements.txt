@@ -2,4 +2,4 @@ customtkinter
 csv
 os
 bcrypt
-pillow
+Pillow
