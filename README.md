@@ -15,6 +15,8 @@ Este projeto é uma interface gráfica para simular um sistema bancário, desenv
 ## 📁 Estrutura do Projeto
 
 Aplicativo_Banco/
+├── example/               # Imagens para usar no readme
+│   └── exemplo_login.png
 ├── images/                # Imagens utilizadas na interface
 │   ├── eye_closed.png
 │   ├── eye_open.png
