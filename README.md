@@ -14,19 +14,18 @@ Este projeto é uma interface gráfica para simular um sistema bancário, desenv
 
 ## 📁 Estrutura do Projeto
 
+```
 Aplicativo_Banco/
-├── example/               # Imagens para usar no readme
-│   └── exemplo_login.png
 ├── images/                # Imagens utilizadas na interface
-│   ├── eye_closed.png
-│   ├── eye_open.png
 │   ├── login.png
-│   └── registro.png
+│   ├── eye_open.png
+│   └── eye_closed.png
 ├── login.py               # Tela de login
-├── cadastro.py            # Tela de cadastro de usuário
-├── main.py                # Tela principal do sistema após login
-├── requirements.txt       # Lista de dependências do projeto
+├── cadastro.py            # Tela de cadastro
+├── main.py                # Tela principal do sistema
+├── requirements.txt       # Dependências do projeto
 └── README.md              # Documentação do projeto
+```
 
 ---
 
