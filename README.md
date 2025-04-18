@@ -1,6 +1,6 @@
 # 🏦 Aplicativo Bancário com CustomTkinter
 
-Este projeto é uma interface gráfica para simular um sistema bancário, desenvolvida em **Python** com a biblioteca **CustomTkinter** para um visual moderno e responsivo. A aplicação atualmente inclui uma tela de login estilizada, com campos personalizados, imagem de fundo, botão de alternância de senha e link para cadastro.
+Este projeto é uma interface gráfica para simular um sistema bancário, desenvolvida em **Python** com a biblioteca **CustomTkinter**, com um visual moderno, responsivo e com navegação otimizada entre telas utilizando **frames**. A aplicação atualmente inclui uma tela de login e uma de cadastro estilizadas, com campos personalizados, imagem de fundo, alternância de senha e integração visual com a identidade "Bankozinho".
 
 ---
 
@@ -16,28 +16,34 @@ Este projeto é uma interface gráfica para simular um sistema bancário, desenv
 
 ```
 Aplicativo_Banco/
-├── images/                # Imagens utilizadas na interface
-│   ├── login.png
+├── example/
+│   ├──exemplo_login.png
+├── images/                   # Imagens utilizadas na interface
+│   ├── cadastro.png
+│   ├── eye_closed.png
 │   ├── eye_open.png
-│   └── eye_closed.png
-├── login.py               # Tela de login
-├── cadastro.py            # Tela de cadastro
-├── main.py                # Tela principal do sistema
-├── requirements.txt       # Dependências do projeto
-└── README.md              # Documentação do projeto
+│   ├── icon.ico              # Ícone da aplicação
+│   └── login.png
+├── login.py                  # Tela de login
+├── cadastro.py               # Tela de cadastro 
+├── main.py                   # Arquivo principal que inicia o app
+├── principal.py              # Tela principal
+├── requirements.txt          # Dependências do projeto
+└── README.md                 # Documentação do projeto
 ```
 
 ---
 
-```markdown
 ## ✅ Funcionalidades
 
 - [x] Tela de login com imagem de fundo
 - [x] Campos personalizados para usuário e senha
 - [x] Botão para mostrar/ocultar senha com ícone
 - [x] Caixa de seleção "Lembrar senha"
-- [x] Botão estilizado para login
 - [x] Link clicável para cadastro de novo usuário
+- [x] Tela de cadastro com mesmo estilo visual
+- [x] Logo personalizada na janela (.ico)
+- [x] Interface responsiva com tema moderno
 
 ---
 
@@ -46,6 +52,7 @@ Aplicativo_Banco/
 - [Python 3.x](https://www.python.org/)
 - [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter)
 - [Pillow](https://pillow.readthedocs.io/)
+- [bcrypt](https://pypi.org/project/bcrypt/)
 
 ---
 
@@ -79,7 +86,7 @@ pip install -r requirements.txt
 4. **Execute a aplicação:**
 
 ```bash
-python login.py
+python main.py
 ```
 
 ---
@@ -107,10 +114,7 @@ pip freeze > requirements.txt
 ## 🧠 Próximos Passos
 
 - [ ] Integração com banco de dados (SQLite)
-- [ ] Tela de cadastros
-- [ ] Criptografar as senhas cadastradas
 - [ ] Validação real de login com usuários cadastrados
+- [ ] Criptografar e armazenar senhas com segurança
 - [ ] Tela principal com funcionalidades bancárias (saldo, extrato, transferências)
-- [ ] Lembrar acesso
-
----
+- [ ] Lembrar usuário logado
