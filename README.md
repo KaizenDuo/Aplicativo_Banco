@@ -118,4 +118,4 @@ pip freeze > requirements.txt
 - [ ] Criptografar e armazenar senhas com segurança
 - [ ] Tela principal com funcionalidades bancárias (saldo, extrato, transferências)
 - [ ] Lembrar usuário logado
-- [ ] **Talvez utilizar `Frame` para navegação entre telas, ao invés de abrir e fechar janelas**
+- [ ] **Utilizar `Frame` para navegação entre telas, ao invés de abrir e fechar janelas**
