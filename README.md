@@ -1,6 +1,6 @@
 # 🏦 Aplicativo Bancário com CustomTkinter
 
-Este projeto é uma interface gráfica para simular um sistema bancário, desenvolvida em **Python** com a biblioteca **CustomTkinter**, com um visual moderno, responsivo e com navegação otimizada entre telas utilizando **frames**. A aplicação atualmente inclui uma tela de login e uma de cadastro estilizadas, com campos personalizados, imagem de fundo, alternância de senha e integração visual com a identidade "Bankozinho".
+Este projeto é uma interface gráfica para simular um sistema bancário, desenvolvida em **Python** com a biblioteca **CustomTkinter**, trazendo uma aparência moderna e responsiva. A navegação entre as telas é feita diretamente com comandos para abrir novas janelas e fechar as anteriores, sem o uso de `Frame`. A aplicação conta com uma tela de login estilizada, campos personalizados, imagem de fundo, botão para alternar a visibilidade da senha e acesso à tela de cadastro.
 
 ---
 
@@ -118,3 +118,4 @@ pip freeze > requirements.txt
 - [ ] Criptografar e armazenar senhas com segurança
 - [ ] Tela principal com funcionalidades bancárias (saldo, extrato, transferências)
 - [ ] Lembrar usuário logado
+- [ ] **Talvez utilizar `Frame` para navegação entre telas, ao invés de abrir e fechar janelas**
